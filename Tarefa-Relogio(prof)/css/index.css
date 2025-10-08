@@ -1,0 +1,84 @@
+/* Normalização */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#relogio{
+    width: 550px;
+    height: 200px;
+    background: transparent;
+    box-shadow: 0 0 10px rgb(189, 189, 189);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#relogio div{
+    background: black;
+    color: white;
+    height: 180px;
+    width: 150px;
+    border-radius: 8px;
+    letter-spacing: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#relogio div span{
+    font-size: 75px;
+}
+
+#relogio .tempo{
+    font-size: 20px;
+}
+
+#data-atual,#saudacao{
+    font-size: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.083);
+    border-radius: 8px;
+    padding: 6px 50px;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+}
+
+#data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    width: auto;
+}
+
+.dia{
+    background: linear-gradient(cyan,darkorange);
+}
+.tarde{
+    background: linear-gradient(darkorange,darkred);
+}
+.noite{
+    background: linear-gradient(darkblue,black);
+}
