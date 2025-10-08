@@ -1,0 +1,67 @@
+/* Normalização */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/tamaki-fire-force-epak3dicshdork6k.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#relogio{
+    display: flex;
+}
+
+#relogio div{
+    background: rgba(0, 0, 0, 0.329);
+    color: rgb(118, 77, 233);
+    height: 180px;
+    width: 150px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#relogio div span{
+    font-size: 75px;
+}
+
+#relogio .tempo{
+    font-size: 20px;
+}
+
+#data-atual,#saudacao{
+    font-size: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.083);
+    border-radius: 8px;
+    padding: 6px 50px;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+}
+
+#data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    width: auto;
+}
