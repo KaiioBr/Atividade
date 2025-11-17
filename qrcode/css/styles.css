@@ -1,0 +1,48 @@
+body{
+    background: url(../img/Untitled.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    background-color: rgba(255, 255, 255, 0.171);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+}
+
+.central input{
+    width: 300px;
+    height: 30px;
+    background: rgb(37, 37, 37);
+    color: white;
+    border-radius: 8px;
+    &::placeholder{
+        color: rgb(255, 0, 0);
+    }
+}
+
+.central button{
+    width: auto;
+    height: 35px;
+   background: rgb(83, 83, 83);
+   color: rgb(117, 0, 0);
+   border-radius: 8px; 
+   cursor: pointer;
+   transition: 0.4s;
+   &:hover{
+       background: white;
+       color: black;
+       transform: scale(105%);
+   }
+}
+
+.central #qrcode{
+    margin-top: 20px;
+}
