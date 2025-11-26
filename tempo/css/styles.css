@@ -1,0 +1,40 @@
+body{
+    height: 100vh; 
+    background: url(../img/dragon-ball-z-4k-pc-0m473oihbbqtz0em.jpg);   
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.205);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: center;
+}
+
+.central input{
+    height: 20px;
+    width: 350px;
+    &:focus{
+        outline: 1px solid blue;
+        background: black;
+        color: white;
+    }
+}
+
+.central button{
+   width: 100px;
+   height: 28px;
+   background: black;
+   color: white;
+   &:hover{
+    cursor: pointer;
+    color: blue;
+   } 
+}
